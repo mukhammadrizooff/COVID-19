@@ -1,4 +1,4 @@
-import { GET_COUNTRIES } from '../actions/countriesAction';
+import { GET_COUNTRIES } from './actionCountries';
 
 const countriesReducer = (state = [], action) => {
   switch (action.type) {

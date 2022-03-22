@@ -1,8 +1,8 @@
-import getCountriesByNamesAPI from '../../api/countriesAPI';
-import { getCountriesAction } from '../actions/countriesAction';
+import baseCountriesAPINames from '../../components/Countries/countriesAPI';
+import { getCountriesAction } from './actionCountries';
 
 const countriesThunk = (countriesNames) => async (dispatch) => {
-  const countries = await getCountriesByNamesAPI(countriesNames);
+  const countries = await baseCountriesAPINames(countriesNames);
   const validCountries = [];
   countries.forEach((country) => {
     validCountries.push({

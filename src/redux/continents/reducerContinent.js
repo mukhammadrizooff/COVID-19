@@ -1,4 +1,4 @@
-import { GET_CONTINENT, GET_CONTINENTS } from '../actions/continentsAction';
+import { GET_CONTINENT, GET_CONTINENTS } from './actionContinents';
 
 export const continentsReducer = (state = [], action) => {
   switch (action.type) {
