@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import ContinentHeader from './components/ContinentHeader/ContinentHeader';
+import HeaderContinent from './components/Continents/Continent/HeaderContinent/HeaderContinent';
 import Continents from './components/Continents/Continents';
 import Countries from './components/Countries/Countries';
 import Header from './components/Header/Header';
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar/Navigation';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
           path="/:continentName"
           element={(
             <>
-              <ContinentHeader />
+              <HeaderContinent />
               <Countries />
             </>
           )}
