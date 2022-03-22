@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import countriesThunk from '../../redux/countries/thunkCountries';
-import Country from './Country folder/Country';
+import Country from './CountryFolder/Country';
 
 const Countries = () => {
   const { countries } = useSelector((state) => state.continentReducer);

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { continentsThunk } from '../../redux/continents/thunkContinent';
-import Continent from './Continent/Continent';
+import Continent from './ContinentFolderMain/Continent';
 import classes from './Continents.module.css';
 
 const Continents = () => {

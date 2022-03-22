@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import HeaderContinent from './components/Continents/Continent/HeaderContinent/HeaderContinent';
+import HeaderContinent from './components/Continents/ContinentFolderMain/HeaderContinent/HeaderContinent';
 import Continents from './components/Continents/Continents';
 import Countries from './components/Countries/Countries';
 import Header from './components/Header/Header';
