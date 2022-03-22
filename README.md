@@ -1,72 +1,87 @@
+![](https://img.shields.io/badge/microverse-blueviolet)
+
+
 # COVID-19
 
-# Getting Started with Create React App
+For countries on all continents, see COVID-19 sufferers on one website! Select your country and keep track of daily and up-to-date information.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+>ABOUT COVID-19: The first symptoms of the virus appeared on December 31, 2019 in Wuhan, China. Since then, the number of infections has increased across the continent and around the world. According to the latest data, the situation in China has reached 43 new cases since Thursday. In total, 4976 people were infected with the virus.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- Redux
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live demo
 
-### `npm test`
+[Live demo link]()
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Presentation
 
-### `npm run build`
+[Presentation video]()
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and run the app, follow these simple example steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- Node.js
+- npm
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone the repository with:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+git clone https://github.com/Rustamxon7/COVID-19-UPDATE.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Install
+To install all dependencies, run:
+```
+npm install
+```
+### Usage
+To open it in the browser, in the project directory, run:
 
-## Learn More
+ ```
+ npm start
+ ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Run tests 
+To test the project, please run in the project directory:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm test
+```
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 **Muhammad Rizo**
 
-### Analyzing the Bundle Size
+- GitHub: [@mukhammadrizooff](https://github.com/mukhammadrizooff)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mukhammadrizooff)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🤝 Contributing
 
-### Making a Progressive Web App
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to check the [issues page](https://github.com/mukhammadrizooff/COVID-19).
 
-### Advanced Configuration
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Give a ⭐️ if you like this project!
 
-### Deployment
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- This project was inspired by [Microverse](https://www.microverse.org/?grsf=w9rx3c)
+- Big thanks to:
+   - [Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) Design idea from [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).
+   - and [Regis Freid](https://github.com/djaiss) and his [Svg maps](https://github.com/djaiss/mapsicon)
 
-### `npm run build` fails to minify
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](https://github.com/mukhammadrizooff/COVID-19/blob/dev/LICENSE) licensed.
