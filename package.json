@@ -1,5 +1,4 @@
 {
-  "homepage": "https://mukhammadrizooff.github.io/COVID-19/",
   "name": "my-fast-app",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +8,6 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^3.2.3",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -23,8 +21,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
