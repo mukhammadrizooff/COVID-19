@@ -1,0 +1,18 @@
+.breaker {
+  background-color: #810f35;
+  color: white;
+  font-size: large;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.breaker input {
+  width: 50%;
+  max-width: 200px;
+  border: 0;
+  outline: none;
+  padding: 8px;
+}
