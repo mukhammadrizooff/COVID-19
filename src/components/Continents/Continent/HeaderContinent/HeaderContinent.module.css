@@ -1,0 +1,19 @@
+.header {
+  height: 200px;
+  display: flex;
+  background-color: #bb2255;
+  justify-content: space-around;
+  color: white;
+}
+
+.image {
+  width: 50%;
+  max-width: 400px;
+}
+
+.breaker {
+  background-color: #810f35;
+  color: white;
+  font-size: large;
+  padding-left: 10px;
+}
